@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = false
+name = "pypi"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+matplotlib = "*"
+ipython = "==4.0.1"
+certifi = "*"
+singledispatch = "*"
+backports-abc = "*"
+futures = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
